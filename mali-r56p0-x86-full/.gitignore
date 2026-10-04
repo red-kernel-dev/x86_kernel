@@ -1,0 +1,30 @@
+# Linux kernel versions
+kernel/*/src/
+kernel/*/build/
+kernel/*/logs/
+kernel/*/artifacts/
+kernel/.downloads/
+
+# Mali driver versions
+driver/*/src/
+driver/*/build/
+driver/*/logs/
+driver/*/artifacts/
+driver/.downloads/
+
+# Runtime/generated files
+qemu/
+rootfs/
+artifacts/
+logs/
+
+# Build products
+*.o
+*.ko
+*.cmd
+*.d
+*.a
+*.mod
+*.mod.c
+Module.symvers
+modules.order
